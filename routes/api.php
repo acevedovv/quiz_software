@@ -15,6 +15,8 @@ use App\Http\Controllers\GenreController;
 |
 */
 
+// Rutas para las bandas
+
 Route::get('/bands', [BandController::class, 'index']); // Retorna todas las bandas
 Route::get('/bands/{id}', [BandController::class, 'show']); // Retorna una banda por ID
 
